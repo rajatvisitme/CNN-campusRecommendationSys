@@ -6,4 +6,4 @@ MarkupSafe==1.1.1
 Werkzeug==1.0.1
 numpy>=1.18.2
 opencv-python>=4.2.0.32
-tensorflow-gpu==1.8.0
+tensorflow==1.8.0
