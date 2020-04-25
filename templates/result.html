@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+	<title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
 	<header>
 		<div class="container">
-		<div id="brandname">
-			ML App
+			<div id="brandname">
+				CNN based Campus Recomendation System
+			</div>
 		</div>
-		<h2>Campus Recomendation System</h2>
-		
-	</div>
 	</header>
-	<p style="color:blue;font-size:20;text-align: center;"><b>Your Campus is: </b></p>
+	<br>
 	<div class="results">
 
-
-		
-	{{
-		<h2 style="color:blue;">message</h2>
-	}}
-
+		<p style="font-size:30px ;text-align: center;"><b>Your Campus is: {{message}}</b></p>
+	
 	</div>
 
 </body>
