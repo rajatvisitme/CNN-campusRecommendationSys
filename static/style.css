@@ -1,7 +1,15 @@
 body{
 	font:15px/1.5 Arial, Helvetica,sans-serif;
 	padding: 0px;
-	background-color:#f4f3f3;
+	background-color: rgba(163, 73, 164, 1);
+}
+
+header{
+	background-color: rgba(255, 157, 157, 1);
+	border-bottom:black 3px solid;
+	font-size: 25px;
+	height:120px;
+	width:100%;
 }
 
 .container{
@@ -10,47 +18,55 @@ body{
 	overflow: hidden;
 }
 
-header{
-	background:#03A9F4;#35434a;
-	border-bottom:#448AFF 3px solid;
-	height:120px;
-	width:100%;
-	padding-top:30px;
-
-}
-
-.main-header{
-			text-align:center;
-			background-color: blue;
-			height:100px;
-			width:100%;
-			margin:0px;
-		}
 #brandname{
 	float:left;
 	font-size:30px;
-	color: #fff;
 	margin: 10px;
-}
-
-header h2{
-	text-align:center;
-	color:#fff;
-
+	padding-top:30px;
+	padding-left: 20px;
 }
 
 
+.ml-container p {
+	font-size: 20px;
+	text-align: center;
+}
 
-.btn-info {background-color: #2196F3;
+input[type="file"]{
+	display: none;
+}
+
+label{
+	color: white;
+	height: 50px;
+	width: 150px;
+	background-color: black;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+
+.btn-info {background-color: rgba(255, 255, 255, 1);
 	height:40px;
-	width:100px;} /* Blue */
-.btn-info:hover {background: #0b7dda;}
+	width:100px;
+}
 
+.btn-info:hover {
+	background: rgba(0, 0, 0, 1);
+	color: white;
+	transition: 1s;
+}
 
-.resultss{
+.results{
 	border-radius: 15px 50px;
-    background: #345fe4;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
+    background: rgba(153, 217, 234, 1);
+    width: 100%;
+    height: 120px;
 }
